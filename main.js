@@ -12,10 +12,11 @@
 
 // Przykład1 wyświetlamy wiek użytkownika
 
-// const usersAge = [19, 18, 15, 45, 34, 33, 25];
+//  
 
 // for (let i = 0; i < usersAge.length; i++) {
-//  // console.log(`użytkownik o indeksie ${i} jest w wieku ${usersAge[i]}`);
+//  console.log(`użytkownik o indeksie ${i + 1} jest w wieku ${usersAge[i]}`);
+// }
 
 //  console.log('użytkownik o indeksie ' + i + ' jest w wieku ' + usersAge[i]);
 // }
@@ -27,7 +28,7 @@
 
 // for (let i = 0; i < usersDateBirth.length; i++) {
 //  const userAge = currentYear - usersDateBirth[i];
-//  // console.log(userAge);
+//  console.log(userAge);
 //  console.log(`wiek użytkownika numer ${i + 1} to ${userAge}`);
 // }
 
@@ -51,6 +52,6 @@
 
 const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
 
-for (const color of colors) {
+for (const i of colors) {
  console.log("mój ulubiony kolor to: " + i);
 }
